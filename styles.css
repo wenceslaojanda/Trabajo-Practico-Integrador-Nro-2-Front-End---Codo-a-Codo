@@ -1,0 +1,135 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#carouselExampleControls img{
+  filter: brightness(50%);
+}
+
+#cards {
+  margin-bottom: 40px;
+}
+
+#container-oradores {
+  margin-top: 20px;
+  width: 50%;
+}
+
+footer {
+    background-color: rgb(54, 54, 108);
+    margin-top: 20px;
+}
+
+.navFooter a:hover {
+ border-radius: 10px;
+ cursor: pointer;
+ background-color: rgb(43, 43, 83);
+}  
+
+  .card-oradores:hover {
+    transition: 1.3s ease;
+    transform:scale(1.02);
+  }
+
+  .card-img-top {
+    height: 100%;
+    object-fit: cover;
+  }
+
+.icon-prev-next {
+  display: none;
+}
+
+.card-title1, .card-text1 {
+  color: white;
+}
+
+.carrusel {
+  padding-right: 100px;
+}
+
+  .btn-outline-secondary {
+    color: whitesmoke;
+    border-color: whitesmoke;
+  }
+
+  .oradores {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .honolulu {
+    display: flex;
+    gap: 1px;
+  }
+
+  .img-honolulu {
+    width: 50%;
+  }
+
+  .txt-honolulu {
+    color: whitesmoke;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+    text-align:justify;
+  }
+
+  .btn-success-submit {
+    width: 100%;
+    background-color: #81c53d;
+    color: whitesmoke;
+  }
+
+  .btn-success-submit:hover {
+    width: 100%;
+    background-color: #609130;
+    color: whitesmoke;
+  }
+
+/* Nuevos Estilos */
+
+.categoria-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-categoria {
+    text-align: center;
+}
+
+.card-title  {
+  font-size: 35px;
+}
+
+.card-porcentaje {
+  font-weight: bold;
+}
+
+.card-estudiante {
+  border: 1px solid blue; 
+}
+
+.card-trainee {
+  border: 1px solid green; 
+}
+
+.card-junior {
+  border: 1px solid orange; 
+}
+
+.blue {
+  background-color: lightblue;
+  width: 98%;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #cde1f5;
+}
+
+.green2 {
+  background-color: #96c93e;
+}
